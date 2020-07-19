@@ -1,0 +1,15 @@
+com\mcc\MIIUniversity\controller\FakultasController.class
+com\mcc\MIIUniversity\entities\Fakultas_.class
+com\mcc\MIIUniversity\repositories\FakultasRepository.class
+com\mcc\MIIUniversity\controller\JurusanController.class
+com\mcc\MIIUniversity\entities\Jurusan_.class
+com\mcc\MIIUniversity\services\FakultasService.class
+com\mcc\MIIUniversity\entities\Jurusan.class
+com\mcc\MIIUniversity\repositories\SiswaRepository.class
+com\mcc\MIIUniversity\entities\Fakultas.class
+com\mcc\MIIUniversity\entities\Siswa.class
+com\mcc\MIIUniversity\MiiUniversityApplication.class
+com\mcc\MIIUniversity\services\IFakultasService.class
+com\mcc\MIIUniversity\entities\Siswa_.class
+com\mcc\MIIUniversity\repositories\JurusanRepository.class
+com\mcc\MIIUniversity\controller\SiswaController.class
