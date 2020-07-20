@@ -84,7 +84,7 @@ and open the template in the editor.
                 <div class="container" align="center">   
                     <td><div class="btn-group" role="group" aria-label="Basic example">
                             <button class="btn btn-secondary open-exampleModal1" href="#exampleModal1" data-toggle="modal" th:data-id="${j.id}" th:data-name="${j.nama}" ><i class="fa fa-pencil"></i>Edit</button>
-                            <a th:href="@{'/jurusandelete/' + ${j.id}}" type="button"  class="btn btn-secondary " > <span class="glyphicon glyphicon-trash"></span>
+                            <a th:href="@{'/jurusandelete/' + ${j.id}}" type="button"  class="btn btn-primary " > <span class="glyphicon glyphicon-trash"></span>
                                 Delete</a>
 
                         </div></tr></tbody>
