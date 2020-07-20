@@ -88,9 +88,9 @@ and open the template in the editor.
                         <!--button trigger modal satu-->
                 <div class="container" align="center">   
                     <td><div class="btn-group" role="group" aria-label="Basic example">
-                            <button class="btn btn-secondary open-exampleModal1" href="#exampleModal1" data-toggle="modal" th:data-id="${f.id}"th:data-nama="${f.nama}" ><i class="fa fa-pencil"></i>Edit</button>
-                            <form id="delete" class="btn btn-primary " value="swal01" onclick="swal01()" > <span class="glyphicon glyphicon-trash"></span>
-                                Delete</form>
+                            <button class="btn btn-secondary open-exampleModal1" href="#exampleModal1" data-toggle="modal tooltip" data-placement="top" title="Edit" th:data-id="${f.id}"th:data-nama="${f.nama}" ><i class="fa fa-pencil"></i></button>
+                            <form id="delete" class="btn btn-danger " data-toggle="modal tooltip" data-placement="top" title="Delete"value="swal01" onclick="swal01()" > <span class="glyphicon glyphicon-trash"></span>
+                                </form>
 
                             <tr th:each ="j: ${jurusans}">
                                 <td th:text= "${j.nama}">nama</td></tr>
@@ -131,10 +131,10 @@ and open the template in the editor.
 
                         <!-- Button trigger modal examplemodal-->
                         <div class="container">
-                            <button class="btn btn-secondary open-exampleModal"  href="#exampleModal" data-toggle="modal">
+                            <button class="btn btn-secondary open-exampleModal"  href="#exampleModal" data-toggle="modal tooltip" data-placement="top" title="Create new">
                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M12 1H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM8.5 6a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V10a.5.5 0 0 0 1 0V8.5H10a.5.5 0 0 0 0-1H8.5V6z"/>
-                                </svg>  Create New
+                                </svg> 
                             </button>
 
                         </div>
